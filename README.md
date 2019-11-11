@@ -4,6 +4,8 @@ In this project, we developed LibreCAN, a system to automatically translate most
 
 Vehicle security attacks to date have all shared one very important feature – they all ultimately require write access to the CAN bus. But in order to do that, one has to know the message format of the CAN bus to inject meaningful data. All makes and models of vehicles have different message formats that are proprietary to the car manufacturer which hopes to prevent cybersecurity attacks on vehicles by not disclosing translation tables for CAN data. In order to cause targeted and intentional changes in vehicle behavior, malicious CAN injection attacks require knowledge of these translation tables.
 
+![alt text](https://web.eecs.umich.edu/~mpese/img/lab/librecan.png "LibreCAN")
+
 ### Abstract
 
 Modern Connected and Autonomous Vehicles (CAVs) are equipped
@@ -31,3 +33,39 @@ we develop LibreCAN, which can translate most CAN messages
 with minimal effort. Our extensive evaluation on multiple vehicles
 demonstrates LibreCAN’s efficiency in terms of accuracy, coverage,
 required manual effort and scalability to any vehicle.
+
+### Research Paper
+[CCS'19 LibreCAN: Automated CAN Message Translator](https://web.eecs.umich.edu/~mpese/papers/ACM_CCS_LibreCAN_Paper.pdf)
+
+BibTex for citation:
+```
+@inproceedings{Pese:2019:LAM:3319535.3363190,
+ author = {Pes{\'e}, Mert D. and Stacer, Troy and Campos, C. Andr{\'e}s and Newberry, Eric and Chen, Dongyao and Shin, Kang G.},
+ title = {LibreCAN: Automated CAN Message Translator},
+ booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+ series = {CCS '19},
+ year = {2019},
+ isbn = {978-1-4503-6747-9},
+ location = {London, United Kingdom},
+ pages = {2283--2300},
+ numpages = {18},
+ url = {http://doi.acm.org/10.1145/3319535.3363190},
+ doi = {10.1145/3319535.3363190},
+ acmid = {3363190},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {CAN bus, automotive security, reverse engineering},
+}
+```
+
+### Code
+Stay tuned, coming soon!
+
+### Team
++ [Mert D. Pesé](http://www.mpese.com), PhD Candidate, Unversity of Michigan
++ Troy Stacer, Undergraduate Student, University of Michigan
++ C. Andrés Campos, Undergraduate Student, University of Michigan
++ Alice C. Ying, Undergraduate Student, University of Michigan
++ [Eric Newberry](https://www.ericnewberry.com), PhD Pre-Candidate, University of Michigan
++ [Dongyao Chen](https://web.eecs.umich.edu/~chendy/), PhD Candidate, University of Michigan
++ [Kang G. Shin](https://web.eecs.umich.edu/~kgshin/), Professor, University of Michigan
