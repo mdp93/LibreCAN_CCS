@@ -59,7 +59,7 @@ BibTex for citation:
 ```
 
 ### Code
-Stay tuned, coming soon!
+For inquiries regarding source code, please contact mpese _at_ umich _dot_ edu.
 
 ### Team
 + [Mert D. Pesé](http://www.mpese.com), PhD Candidate, Unversity of Michigan
